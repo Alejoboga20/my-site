@@ -1,32 +1,38 @@
 body {
-  background-color: #e4f5f5;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 200%;
+  font-size: 100%;
 }
 
 h1 {
   margin: 50px auto 0 auto;
+  line-height: 2;
   font-family: 'Sacramento', cursive;
   font-size: 5.6rem;
+  color: #66bfbf;
 }
 
 h2 {
   font-family: 'Monserrat', sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
 }
 
 h3 {
   font-family: 'Monserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
 }
 
 .top-container {
+  background-color: #e4f5f5;
   position: relative;
   padding-top: 100px;
-}
-
-.middle-container {
 }
 
 .middle-container img {
@@ -35,7 +41,24 @@ h3 {
   height: 200px;
 }
 
-.bottom-container {
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row img {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.javascript-img {
+  float: left;
+}
+
+.react-img {
+  float: right;
 }
 
 .top-cloud {
@@ -48,4 +71,8 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.bottom-container {
+  margin-top: 200px;
 }
