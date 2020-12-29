@@ -27,6 +27,15 @@ h3 {
 
 a {
   color: #11999e;
+  text-decoration: none;
+}
+
+hr {
+  border-style: none;
+  border-width: 10px;
+  border-top-style: dotted;
+  border-color: #777777;
+  width: 15%;
 }
 
 .top-container {
@@ -75,4 +84,36 @@ a {
 
 .bottom-container {
   margin-top: 200px;
+}
+
+.bottom-container h2 {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #11999e;
+  color: white;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #66bfbf;
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+}
+
+.footer a {
+  color: #11999e;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
 }
